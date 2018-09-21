@@ -1,0 +1,86 @@
+
+
+header{
+  background: black;
+  overflow: hidden;
+}
+/* only targeting images that are direct decendents of header */
+
+header > img {
+  float: left;
+  margin-left: 40px;
+  
+}
+div{
+    float: left;
+    margin: 5px;
+}
+nav {
+ font-size: 10px;
+  line-height: 5px; 
+  
+    
+}
+header h1{
+  color:white;
+  }
+header h2 {
+  color:white
+    
+}
+
+header h3{
+  color:white;
+  font-size: 2em;
+  line-height: 100px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 2em;
+  }
+
+#social {
+  float: right;
+}
+
+#social li{
+  float: right;
+  margin: .1em;
+  height:15px;
+  margin-right: 10px
+  
+}
+
+#main{
+  clear: both;
+  
+}
+
+#main li{
+  display: inline-block;
+  padding: .25em 1em;
+}
+
+#main li:hover{
+  background: #fff;
+}
+
+
+
+nav a{
+  text-decoration: none;
+  color: #f5f5f5;
+}
+div {
+    height: 10%;
+    max-width: 70%;
+}
+
+    footer{
+
+        display:block;
+        height: 10px;
+
+    }
+
+
+  
